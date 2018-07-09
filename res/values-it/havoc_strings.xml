@@ -40,6 +40,7 @@
   <string name="volume_title">Tasti del volume</string>
   <string name="fingerprint_title">Impronta digitale</string>
   <string name="sounds_title">Suono</string>
+  <string name="custom_seekbar_default_text">Predefinito</string>
   <!-- About -->
   <string name="havoc_developers_category_title">Havoc-OS Team</string>
   <string name="maintainer_category_title">Dispositivi ufficiali</string>
@@ -92,6 +93,16 @@
   <string name="hex_hint">#ff000000</string>
   <string name="set">Imposta</string>
   <string name="color_default">Predefinito</string>
+  
+   <string name="volume_dialog_dim">Volume di dialogo con sfondo scuro</string>  
+    <!-- LS OwnerInfo Font & Size --> 
+    <string name="lock_ownerinfo_font_title">Opzioni del carattere OwnerInfo</string> 
+    <string name="lock_ownerinfo_font_summary">Cambia il carattere predefinito delle informazioni sul proprietario della schermata di blocco</string> 
+    <string name="lock_ownerinfo_font_dialog_title">Seleziona il tipo di carattere di blocco OwnerInfo</string> 
+    <string name="lockowner_font_size_title">Dimensione del carattere delle informazioni del proprietario</string> 
+    <string name="ls_owner">Stile OwnerInfo</string> 
+    <string name="lock_alarm_font_title">Opzioni carattere allarme</string> 
+    <string name="lock_alarm_font_summary">Cambia il carattere predefinito dell'allarme della schermata di blocco</string> 
   <!-- QS edit icon -->
   <string name="qs_edit_title">Icona modifica</string>
   <string name="qs_edit_summary">Disattiva l\'icona di modifica dei tile a piè di pagina</string>
@@ -305,7 +316,8 @@
   <string name="stabilization_velocity_amplitude_title">Ampiezza della velocità</string>
   <string name="lock_date_font_title">Opzioni del carattere della data</string>
   <string name="lock_date_font_summary">Modifica il carattere predefinito del widget dell\'orologio nella schermata di blocco</string>
-  <string name="lock_date_font_dialog_title">Seleziona carattere data nella schermata di blocco</string>
+  <string name="lock_date_font_dialog_title">Seleziona il carattere della data</string> 
+  <string name="lock_alarm_font_dialog_title">Seleziona il carattere dell'allarme</string> 
   <!-- Smart Pixels -->
   <string name="smart_pixels_title">Smart Pixel</string>
   <string name="smart_pixels_summary">Risparmia batteria spegnendo i pixel aggiuntivi</string>
@@ -513,6 +525,9 @@
   <string name="omniswitch_first_time_title">Informazioni</string>
   <string name="omniswitch_first_time_message">Assicurati di aver attivato OmniSwitch. Puoi farlo dalle \"Impostazioni\" qui sotto</string>
   <string name="omniswitch_settings_title">OmniSwitch</string>
+  <!-- Swipe FP to dismiss notifications -->
+  <string name="fp_swipe_to_dismiss_notifications_title">Scorri sull\'impronta digitale per ignorare le notifiche</string>
+  <string name="fp_swipe_to_dismiss_notifications_summary">Per ignorare le notifiche, scorrere verso sinistra o destra sul sensore di impronte digitali sul retro del telefono.</string>
   <!-- Custom System Animations -->
   <string name="system_animation_title">Animazioni di sistema</string>
   <string name="system_animation_summary">Personalizza le animazioni di di sistema per ogni finestra</string>
@@ -660,12 +675,12 @@
   <string name="stock_recents_category">Recenti predefinite</string>
   <string name="alternative_recents_category">Recenti alternativi</string>
   <!-- Slim Recent panel -->
-  <string name="slim_recents_title">Slim Recents</string>
-  <string name="use_slim_recents_title">Slim Recents</string>
-  <string name="use_slim_recents_summary">Utilizza Slim Recents anziché la visualizzazione predefinita delle app recenti</string>
+  <string name="slim_recents_title">Recenti Slim</string>
+  <string name="use_slim_recents_title">Recenti Slim</string>
+  <string name="use_slim_recents_summary">Utilizza i recenti Slim anziché la visualizzazione predefinita delle app recenti</string>
   <string name="slim_recents_settings_title">Impostazioni</string>
-  <string name="slim_recents_settings_summary">Visualizza le impostazioni di Slim Recents</string>
-  <string name="recent_panel_category">Pannello Slim Recents</string>
+  <string name="slim_recents_settings_summary">Visualizza le impostazioni dei recenti Slim</string>
+  <string name="recent_panel_category">Pannello recenti Slim</string>
   <string name="show_running_tasks_title">Mostra solo le app in esecuzione</string>
   <string name="recents_max_apps_title">Numero massimo di applicazioni consentite</string>
   <string name="recent_panel_scale_title">Dimensione</string>
@@ -723,7 +738,7 @@
   <string name="screen_zoom_title">Dimensioni schermo</string>
   <string name="developer_smallest_width">Densità</string>
   <!-- AOSP Recents Style -->
-  <string name="recents_type_title">Disposizione dei recenti</string>
+  <string name="recents_type_title">Configurazionezione dei recenti</string>
   <string name="recents_stock">Predefinito</string>
   <string name="recents_grid">Griglia</string>
   <string name="stock_recents_layout">Posizione</string>
@@ -991,7 +1006,7 @@
   <!-- Volume dialog timeout -->
   <string name="volume_dialog_timeout_title">Durata del pannello volume</string>
   <!-- Power menu and dialogs opacity -->
-  <string name="power">Regola il menù alimentazione</string>
+  <string name="power">Configura il menù alimentazione</string>
   <string name="power_menu_transparency">Trasparenza del menù alimentazione</string>
   <string name="power_menu_dialog_dim">Imposta lo sfondo scuro sotto la finestra del menù di alimentazione</string>
   <!-- Volume dialog opacity -->
@@ -1490,7 +1505,7 @@
   <string name="lock_screen_weather_condition_icon_title">Icona condizioni</string>
   <string name="lock_screen_weather_condition_icon_summary">Visualizza le icone delle condizioni sulla schermata di blocco</string>
   <!-- Face unlock -->
-  <string name="face_auto_unlock_title">Sblocco con volto</string>
+  <string name="face_auto_unlock_title">Sblocco con viso</string>
   <string name="face_auto_unlock_summary">Sblocca automaticamente il dispositivo dopo il riconoscimento del viso</string>
   <!-- Pocket judge -->
   <string name="pocket_judge_title">Rilevamento in tasca</string>
@@ -1723,4 +1738,7 @@
   <!-- Allow lights in zen mode -->
   <string name="zen_allow_lights">LED di notifica in modalità non disturbare</string>
   <string name="zen_allow_lights_summary">Permetti di far lampeggiare la luce quando non disturbare è attivo</string>
+  <!-- Status bar - Battery saver color -->
+  <string name="status_bar_battery_saver_color_title">Colore risparmio batteria</string>
+  <string name="status_bar_battery_saver_color_summary">Nota: se il risparmio batteria è già abilitato, affinché il nuovo colore sia applicato, attivare il risparmio batteria!</string>
 </resources>
